@@ -1,0 +1,94 @@
+* {
+    font-family: sans-serif;
+  }
+  .start {
+    background-color: rgb(246,246,241);
+    margin: 12px;
+  }
+  .end {
+    background-color: rgb(246,246,241);
+    margin: 12px;
+  }
+  .unpaid{
+    background-color: rgb(246,246,241);
+    margin: 12px;
+  }
+  .description {
+    background-color: rgb(246,246,241);
+    margin: 15px;
+    padding: 40px;
+ 
+  }
+  .description label {
+    position: relative;
+    top: -70px;
+    right: -42px;
+    font-size: 17px;
+  }
+  #btn {
+    background-color: #005C46; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    transition: .4s;
+    margin-left: 470px;
+  }
+  
+  #btn:hover {
+    background: rgb(20,29,29);
+    color: #34AC90;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  #btn:hover {
+    background: transparent;
+    color: #222;
+  }
+  
+  #btn:hover #circle {
+    height: 40px;
+    width: 130px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #34ac90;
+  }
+  input.timesheet {
+    margin: 10px;
+    position: relative;
+    right: -96px;
+  }
+  label.timesheet{
+      position: relative;
+      right: -96px;
+  }
+  textarea {
+    height: 130px;
+    width: 600px;
+    resize: none;
+    position: relative;
+    right: -100px;
+  }
+  h3{
+      position: relative;
+      font-weight: bold;
+      right: -96px;
+      background: linear-gradient(to left, #7FFFD4, #34ac90);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+ 

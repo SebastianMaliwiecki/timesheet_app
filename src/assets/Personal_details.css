@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+  }
+#pdForm {
+    font-family: sans-serif;
+    color: black;
+    margin-left: 50pt;
+    margin-top: 150pt;
+    margin-bottom: 20pt;
+    background-color: rgb(246,246,241);
+    padding: 20pt;
+    font-size: 30pt;
+    border: 3px solid #005C46;
+    width: 25em
+}
